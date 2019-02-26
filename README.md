@@ -44,7 +44,7 @@ Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and a la
 ![Audio in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-audio.png "Audio in Clover Configurator")
 
 ### Graphics
-This is covered the *The Guide* but:
+This is covered by *The Guide* but:
 
 iGPU connected
 ```
