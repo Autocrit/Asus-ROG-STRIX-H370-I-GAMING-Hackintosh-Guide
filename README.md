@@ -15,3 +15,15 @@ This isn't intented to be a standalone guide as it doens't make sense to re what
 |Video card|Gigabyte GeForce GTX 1080 8GB/iGPU in Mojave|
 |Case|Lazer3D LZ7|
 |PSU|Corsair SF450W Gold|
+
+## BIOS settings
+I need to add more here but:
+1. VT-d: *disabled*
+2. Launch CSM: *enabled* (seems to be necessary to get output from the Nvidia graphics card; otherwise, *disabled* works)
+
+## Installing Clover
+A typical Z390 Clover installation (i.e. one not requiring FileVault) will use just three EFI drivers: AptioMemoryFix, HFSPlus or VBoxHfs-64 and ApfsDriverLoader.
+
+H370 needs EmuVariableUefi-64 in order to have working sleep, restart and shutdown.
+
+If your macOS install is freezing at something like 2 minutes remaining you might not have installed EmuVariableUefi-64 and it is in fact crashing when trying to restart.
