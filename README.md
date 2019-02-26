@@ -119,7 +119,7 @@ In this example SSDT-UIAC.dsl I have chosen to exclude the internal USB2.0 heade
 
 ## WiFi and Bluetooth
 I replaced the Intel WiFi/BT card with a Broadcom BCM94352Z based DW1560 from [Ebay](https://www.ebay.co.uk/itm/172212358962).
-For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatchRAM2.kext*. I also added a "brcmfx-country=XX" boot argument e.g.
+For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatchRAM2.kext*. I also added a `brcmfx-country=XX` boot argument e.g.
 ```
 <key>Arguments</key>
 <string>keepsyms=1 dart=0 debug=0x100 brcmfx-country=UK</string>
