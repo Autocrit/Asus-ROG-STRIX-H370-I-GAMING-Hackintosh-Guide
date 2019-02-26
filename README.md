@@ -1,4 +1,2 @@
 # Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide
-Asus ROG STRIX H370-I GAMING Hackintosh Guide
-
-https://autopilot.gitbook.io/asus-rog-stix-h370-i-gaming-hackintosh/
+A guide to installing macOS on this mini-ITX H370 motherboard.
