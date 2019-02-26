@@ -1,8 +1,8 @@
 # Asus ROG STRIX H370 I GAMING Hackintosh Guide
-A guide to installing macOS on this mini-ITX H370 motherboard, based on *CorpNewt*'s [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
+A guide to installing macOS on this mini-ITX H370 motherboard, based on *CorpNewt's [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)*.
 
 ## Intro
-The [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) (which I will refer to as *The Guide*) is as clear and easy-to-follow as a guide can be, therefore I wont attempt to duplicate it here. If something is missing here it's probably because it's already covered by in *The Guide*.
+The *[Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* (which I will refer to as *The Guide*) is as clear and easy-to-follow as a guide can be, therefore I wont attempt to duplicate it here. If something is missing here it's probably because it's already covered by in *The Guide*.
 
 However, there are some configuration settings and files specific to this motherboard (and to a lesser extent applicable to all H370 motherboards), and that is what I intend to cover here for the Asus ROG STRIX H370 I GAMING.
 
@@ -45,14 +45,14 @@ For config.plist editing I use a text editor e.g. BBEdit (evaluation version), C
 
 ### Audio
 Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and layout that works with this motherboard's S1220A codec:
-'''<key>Audio</key>
+```<key>Audio</key>
 <dict>
 	<key>Inject</key>
 	<integer>7</integer>
 	<key>ResetHDA</key>
 	<true/>
 </dict>
-'''
+```
 Graphics
 iGPU connected
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
