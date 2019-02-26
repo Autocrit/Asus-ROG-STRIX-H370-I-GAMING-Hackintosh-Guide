@@ -5,6 +5,8 @@ A guide to installing macOS on this mini-ITX H370 motherboard based on *CorpNewt
 This isn't intented to be a standalone guide as it doens't make sense to re what is already a clear and concise easy-to-follow. I will mostly describe It assumes you have already studied and understood the Rather, I will mostly describe areas where I will describe some of the 
 
 ## My system
+|Component|Part|
+|-|-|
 | CPU | Core i7-8700K |
 |Cooler|Noctua NH-L12S|
 |Motherboard|Asus ROG STRIX H370-I GAMING|
