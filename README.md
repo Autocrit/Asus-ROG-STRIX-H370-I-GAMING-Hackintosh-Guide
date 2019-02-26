@@ -111,3 +111,5 @@ If you are having problems with USB mouse or keyboard not working during or post
 I recommend following *RehabMan's*  guide to [Creating a Custom SSDT for USBInjectAll.kext](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/). This will limit you to 15 ports (and fewer physical ports because USB 3 ports take up two ports, one for USB 3 and one for USB 2). The locations of the USB ports on the Asus ROG STRIX H370-I GAMING motherboard are:
 
 ![Asus H370-I GAMING USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/asus-h370-i-gaming-usb-ports-2.png "Asus H370-I GAMING USB ports")
+
+In this example SSDT-UIAC.dsl I have chosen to exclude the internal USB2.0 headers (I don't use them), and port(s) HS05/SS05 (one of the internal-to-front-panel USB 3.1Gen1 ports and its USB2.0 counterpart), leaving a total of 15 ports.
