@@ -22,7 +22,7 @@ Clover installation options should look like:
 ## Kexts
 The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext* (and/or *RealtekRTL8111.kext* for the Realtek LAN port), *USBInjectAll.kext*, *WhateverGreen.kext*, *AppleALC.kext*, *Lilu.kext*, *VirtualSMC.kext* and *XHCI-unsupported.kext*.
 
-I use the [build_lilu.sh](http://headsoft.com.au/download/mac/build_lilu.zip) to clone and build the latest Lilu.kext, VirtualSMC.kext, WhateverGreen.kext, AppleALC.kext etc.
+I use [build_lilu.sh](http://headsoft.com.au/download/mac/build_lilu.zip) to clone and build the latest Lilu.kext, VirtualSMC.kext, WhateverGreen.kext, AppleALC.kext etc.
 
 ## config.plist
 *The Guide* covers the process of creating a config.plist step-by-step from scratch.
