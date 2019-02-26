@@ -23,7 +23,7 @@ Clover installation options should look like:
 The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext* (and/or *RealtekRTL8111.kext* for the Realtek LAN port), *USBInjectAll.kext*, *WhateverGreen.kext*, *AppleALC.kext*, *Lilu.kext*, *VirtualSMC.kext* and *XHCI-unsupported.kext*.
 
 ## config.plist
-*CorpNewt*'s guide covers step-by-step the process of creating a config.plist from scratch.
+*The Guide* covers the process of creating a config.plist step-by-step from scratch.
 
 ### Tools
 There are sevreal ways to mount an EFI partition but in general I use Clover Configurator:
