@@ -27,3 +27,7 @@ A typical Z390 Clover installation (i.e. one not requiring FileVault) will use j
 H370 needs EmuVariableUefi-64 in order to have working sleep, restart and shutdown.
 
 If your macOS install is freezing at something like 2 minutes remaining you might not have installed EmuVariableUefi-64 and it is in fact crashing when trying to restart.
+
+Clover installation options should look like:
+
+![alt text](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/Clover%20install%20options%202.png "Clover installation options")
