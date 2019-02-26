@@ -32,7 +32,7 @@ Kexts can be copied into /Volumes/EFI/EFI/CLOVER/kexts/Other using Finder.
 For config.plist editing I use a text editor e.g. BBEdit (evaluation version), Clover Configurator and a plist editor e.g. Xcode.
 
 ### Audio
-Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and layout that works with this motherboard's S1220A codec:
+Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and a layout that works with this motherboard's S1220A codec:
 ```<key>Audio</key>
 <dict>
 	<key>Inject</key>
