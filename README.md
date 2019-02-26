@@ -25,7 +25,7 @@ The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext
 I use [build_lilu.sh](http://headsoft.com.au/download/mac/build_lilu.zip) to clone and build the latest *Lilu.kext*, *VirtualSMC.kext*, *WhateverGreen.kext*, *AppleALC.kext* etc.
 
 ## config.plist
-*The Guide* covers the process of creating a config.plist step-by-step from scratch.
+*The Guide* covers the process of creating a config.plist step-by-step from scratch. This is the recommended approach but here is an iMac18,1 SMBIOS config.plist as an alternative starting point:
 
 [config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/config.plist)
 
@@ -50,7 +50,7 @@ Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and a la
 ### Graphics
 This is covered by *The Guide* but:
 
-iGPU connected
+iGPU connected (use an iMac18,1 SMBIOS as explained in *The Guide*)
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
@@ -58,7 +58,7 @@ iGPU connected
 	<data>BwCbPg==</data>
 </dict>
 ```
-iGPU connectorless
+iGPU connectorless (use an iMac18,3 SMBIOS as explained in *The Guide*)
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
