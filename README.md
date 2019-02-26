@@ -53,21 +53,29 @@ Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and layo
 	<true/>
 </dict>
 ```
-Graphics
+![Audio in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-audio.png "Audio in Clover Configurator")
+
+### Graphics
+Again this is covered the *The Guide* but
 iGPU connected
+```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
 	<key>AAPL,ig-platform-id</key>
 	<data>BwCbPg==</data>
 </dict>
+```
 iGPU connectorless
+```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
    <key>AAPL,ig-platform-id</key>
    <data>AwCSPg==</data>
 </dict>
+```
 iGPU HDMI port fix
 I have a dual monitor setup using the DisplayPort and HDMI ports but without these fixes I get no output from the HDMI port, and even with them I have to reconnect the HDMI port after booting.
+```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
    <key>AAPL,ig-platform-id</key>
@@ -93,3 +101,4 @@ I have a dual monitor setup using the DisplayPort and HDMI ports but without the
    <key>framebuffer-pipecount</key>
    <data>AgAAAA==</data>
 </dict>
+```
