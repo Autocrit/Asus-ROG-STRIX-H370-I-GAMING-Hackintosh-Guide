@@ -1,10 +1,10 @@
-# Asus ROG STRIX H370 I GAMING Hackintosh Guide
-A guide to installing macOS on this mini-ITX H370 motherboard, based on *CorpNewt's [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)*.
+# Asus ROG STRIX H370-I GAMING Hackintosh Guide
+This is a guide to installing macOS on ROG STRIX H370-I GAMING mini-ITX H370 motherboard, based on *CorpNewt's [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)*.
 
 ## Intro
-The *[Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* (which I will refer to as *The Guide*) is as clear and easy-to-follow as a guide can be, therefore I wont attempt to duplicate it here. If something is missing here it's probably because it's already covered by in *The Guide*.
+*CorpNewt's *[Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* (which I will refer to as *The Guide*) is just about as clear and easy-to-follow as a guide can be so I wont attempt to duplicate it here. If something is missing here it's probably because it's already covered by in *The Guide*.
 
-However, there are some configuration settings and files specific to this motherboard (and to a lesser extent applicable to all H370 motherboards), and that is what I intend to cover here for the Asus ROG STRIX H370 I GAMING.
+There are however some configuration settings and files specific to this motherboard (and to a lesser extent applicable to all H370-based motherboards), and that is what I intend to cover here for the ROG STRIX H370-I GAMING.
 
 ## My system
 |Component|Part|
@@ -73,7 +73,7 @@ iGPU connectorless
    <data>AwCSPg==</data>
 </dict>
 ```
-iGPU HDMI port fix
+##### iGPU HDMI port fix
 I have a dual monitor setup using the DisplayPort and HDMI ports but without these fixes I get no output from the HDMI port, and even with them I have to reconnect the HDMI port after booting.
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
