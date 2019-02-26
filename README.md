@@ -56,7 +56,7 @@ Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and layo
 ![Audio in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-audio.png "Audio in Clover Configurator")
 
 ### Graphics
-Again this is covered the *The Guide* but:
+This is covered the *The Guide* but:
 
 iGPU connected
 ```
@@ -76,6 +76,7 @@ iGPU connectorless
 ```
 
 iGPU HDMI port fix
+
 I have a dual monitor setup using the DisplayPort and HDMI ports but without these fixes I get no output from the HDMI port, and even with them I have to reconnect the HDMI port after booting.
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
@@ -115,3 +116,11 @@ I recommend following *RehabMan's*  guide to [Creating a Custom SSDT for USBInje
 Example [SSDT-UIAC.dsl](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/SSDT-UIAC.dsl)
 
 In this example SSDT-UIAC.dsl I have chosen to exclude the internal USB2.0 headers (I don't use them), and port(s) HS05/SS05 (one of the internal-to-front-panel USB 3.1Gen1 ports and its USB2.0 counterpart), leaving a total of 15 ports. The excluded ports are commented-out (i.e. between /\* and \*/).
+
+## WiFi and Bluetooth
+I replaced the Intel WiFi/BT card with a Broadcom BCM94352Z based DW1560 [](https://www.ebay.co.uk/itm/172212358962).
+For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatchRAM2.kext*. I also added a "brcmfx-country=XX" boot argument e.g.
+```
+<key>Arguments</key>
+<string>keepsyms=1 dart=0 debug=0x100 brcmfx-country=UK</string>
+```
