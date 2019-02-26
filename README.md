@@ -114,4 +114,4 @@ I recommend following *RehabMan's*  guide to [Creating a Custom SSDT for USBInje
 
 Example [SSDT-UIAC.dsl](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/SSDT-UIAC.dsl)
 
-In this example SSDT-UIAC.dsl I have chosen to exclude the internal USB2.0 headers (I don't use them), and port(s) HS05/SS05 (one of the internal-to-front-panel USB 3.1Gen1 ports and its USB2.0 counterpart), leaving a total of 15 ports. The excluded ports are commented-out (i.e. between /** and **/).
+In this example SSDT-UIAC.dsl I have chosen to exclude the internal USB2.0 headers (I don't use them), and port(s) HS05/SS05 (one of the internal-to-front-panel USB 3.1Gen1 ports and its USB2.0 counterpart), leaving a total of 15 ports. The excluded ports are commented-out (i.e. between /\* and \*/).
