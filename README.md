@@ -2,7 +2,7 @@
 This is a guide to installing macOS on ROG STRIX H370-I GAMING mini-ITX H370 motherboard, based on *CorpNewt's [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)*.
 
 ## Intro
-*CorpNewt's *[Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* (which I will refer to as *The Guide*) is just about as clear and easy-to-follow as a guide can be so I wont attempt to duplicate it here. If something is missing here it's probably because it's already covered by in *The Guide*.
+*CorpNewt*'s *[Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* (which I will refer to as *The Guide*) is just about as clear and easy-to-follow as a guide can be so I wont attempt to duplicate it here. If something is missing here it's probably because it's already covered by in *The Guide*.
 
 There are however some configuration settings and files specific to this motherboard (and to a lesser extent applicable to all H370-based motherboards), and that is what I intend to cover here for the ROG STRIX H370-I GAMING.
 
