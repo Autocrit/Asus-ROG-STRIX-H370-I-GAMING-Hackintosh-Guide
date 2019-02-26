@@ -6,7 +6,7 @@ This isn't intented to be a standalone guide as it doens't make sense to re what
 
 ## My system
 |Component|Part|
-|-|-|
+|:-|:-|
 | CPU | Core i7-8700K |
 |Cooler|Noctua NH-L12S|
 |Motherboard|Asus ROG STRIX H370-I GAMING|
@@ -15,9 +15,3 @@ This isn't intented to be a standalone guide as it doens't make sense to re what
 |Video card|Gigabyte GeForce GTX 1080 8GB/iGPU in Mojave|
 |Case|Lazer3D LZ7|
 |PSU|Corsair SF450W Gold|
-
-| | | |
-|-|-|-|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
