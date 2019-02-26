@@ -15,6 +15,7 @@ This isn't intented to be a standalone guide as it doens't make sense to re what
 |PSU|Corsair SF450W Gold|
 
 | Tables        | Are           | Cool  |
+| ------------- |-------------|-----|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
