@@ -27,6 +27,8 @@ I use [build_lilu.sh](http://headsoft.com.au/download/mac/build_lilu.zip) to clo
 ## config.plist
 *The Guide* covers the process of creating a config.plist step-by-step from scratch.
 
+[config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/config.plist)
+
 ### Tools
 There are sevreal ways to mount an EFI partition but in general I use Clover Configurator:
 ![Mount EFI in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configigurator-mount-efi.png "Mount EFI in Clover Configurator")
