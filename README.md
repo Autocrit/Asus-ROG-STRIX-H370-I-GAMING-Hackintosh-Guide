@@ -33,3 +33,59 @@ If your macOS install is freezing at something like 2 minutes remaining you migh
 Clover installation options should look like:
 
 ![Clover installation options](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/Clover%20install%20options%202.png "Clover installation options")
+
+## Accessing the EFI partition
+There are sevreal ways to mount an EFI partition but I generally use Clover Configurator:
+![Mount EFI in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/Clover%20Configigurator%20mount%20EFI.png "Mount EFI in Clover Configurator")
+
+## config.plist
+*CorpNewt*'s guide covers step-by-step the process of creating a config.plist from scratch.
+Audio
+Layout 7 works for this motherboard's S1220A codec:
+<key>Audio</key>
+<dict>
+	<key>Inject</key>
+	<integer>7</integer>
+	<key>ResetHDA</key>
+	<true/>
+</dict>
+Graphics
+iGPU connected
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
+	<key>AAPL,ig-platform-id</key>
+	<data>BwCbPg==</data>
+</dict>
+iGPU connectorless
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
+   <key>AAPL,ig-platform-id</key>
+   <data>AwCSPg==</data>
+</dict>
+iGPU HDMI port fix
+I have a dual monitor setup using the DisplayPort and HDMI ports but without these fixes I get no output from the HDMI port, and even with them I have to reconnect the HDMI port after booting.
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
+   <key>AAPL,ig-platform-id</key>
+   <data>BwCbPg==</data>
+   <key>disable-external-gpu</key>
+   <data>AQAAAA==</data>
+   <key>framebuffer-con1-enable</key>
+   <data>AQAAAA==</data>
+   <key>framebuffer-con1-type</key>
+   <data>AAgAAA==</data>
+   <key>framebuffer-con1-pipe</key>
+   <data>CAAAAA==</data>
+   <key>framebuffer-con1-busid</key>
+   <data>AgAAAA==</data>
+   <key>framebuffer-con2-enable</key>
+   <data>AQAAAA==</data>
+   <key>framebuffer-con2-index</key>
+   <data>/////w==</data>
+   <key>framebuffer-patch-enable</key>
+   <data>AQAAAA==</data>
+   <key>framebuffer-portcount</key>
+   <data>AgAAAA==</data>
+   <key>framebuffer-pipecount</key>
+   <data>AgAAAA==</data>
+</dict>
