@@ -2,7 +2,7 @@
 A guide to installing macOS on this mini-ITX H370 motherboard, based on *CorpNewt*'s [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
 
 ## Intro
-The [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) is as clear and easy-to-follow as a guide can be, therefore I wont attempted to duplicate it here. This isn't a standalone guide; if something is missing here it is because it is already covered by that guide.
+The [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) (which I will refer to as *The Guide*) is as clear and easy-to-follow as a guide can be, therefore I wont attempt to duplicate it here. If something is missing here it's probably because it's already covered by in *The Guide*.
 
 However, there are some configuration settings and files specific to this motherboard (and to a lesser extent applicable to all H370 motherboards), and that is what I intend to cover here for the Asus ROG STRIX H370 I GAMING.
 
@@ -24,31 +24,35 @@ I need to add more here but:
 2. Launch CSM: *enabled* (seems to be necessary to get output from the Nvidia graphics card; otherwise, *disabled* works)
 
 ## Installing Clover
-A typical Z390 Clover installation (i.e. one not requiring FileVault) will use just three EFI drivers: AptioMemoryFix, HFSPlus or VBoxHfs-64 and ApfsDriverLoader.
+Other chipsets might require just three EFI drivers: *AptioMemoryFix*, *HFSPlus* or *VBoxHfs-64* and *ApfsDriverLoader*. H370 also needs *EmuVariableUefi-64* in order to have working sleep, restart and shutdown.
 
-H370 needs EmuVariableUefi-64 in order to have working sleep, restart and shutdown.
-
-If your macOS install is freezing at something like 2 minutes remaining you might not have installed EmuVariableUefi-64 and it is in fact crashing when trying to restart.
+If your macOS install is freezing/crashing at something like 2 minutes remaining you might not have installed *EmuVariableUefi-64*.
 
 Clover installation options should look like:
+![Clover installation options](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/Clover%20install%20options%202.png "Clover installation options")
 
-![Clover installation options](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/Clover%20install%20options%202.png "Clover installation options")
-
-## Accessing the EFI partition
-There are sevreal ways to mount an EFI partition but I generally use Clover Configurator:
-![Mount EFI in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/Clover%20Configigurator%20mount%20EFI.png "Mount EFI in Clover Configurator")
+## Kexts
+The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext* (and/or *RealtekRTL8111.kext* for the Realtek LAN port), *USBInjectAll.kext*, *WhateverGreen.kext*, *AppleALC.kext*, *Lilu.kext*, *VirtualSMC.kext* and *XHCI-unsupported.kext*
 
 ## config.plist
 *CorpNewt*'s guide covers step-by-step the process of creating a config.plist from scratch.
-Audio
-Layout 7 works for this motherboard's S1220A codec:
-<key>Audio</key>
+
+### Tools
+There are sevreal ways to mount an EFI partition but in general I use Clover Configurator:
+![Mount EFI in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/Clover%20Configigurator%20mount%20EFI.png "Mount EFI in Clover Configurator")
+Kexts can be copied into /Volumes/EFI/EFI/CLOVER/kexts/Other using Finder.
+For config.plist editing I use a text editor e.g. BBEdit (evaluation version), Clover Configurator and a plist editor e.g. Xcode.
+
+### Audio
+Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and layout that works with this motherboard's S1220A codec:
+'''<key>Audio</key>
 <dict>
 	<key>Inject</key>
 	<integer>7</integer>
 	<key>ResetHDA</key>
 	<true/>
 </dict>
+'''
 Graphics
 iGPU connected
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
