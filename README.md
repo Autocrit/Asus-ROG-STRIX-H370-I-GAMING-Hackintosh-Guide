@@ -6,18 +6,6 @@ This is a guide to installing macOS on ROG STRIX H370-I GAMING mini-ITX H370 mot
 
 There are, however, some configuration settings and files specific to this motherboard (and to a lesser extent to all H370-based motherboards), and that is what I intend to cover here for the ROG STRIX H370-I GAMING.
 
-## My system
-|Component|Part|
-|:-|:-|
-| CPU | Core i7-8700K |
-|Cooler|Noctua NH-L12S|
-|Motherboard|Asus ROG STRIX H370-I GAMING|
-|Memory|Corsair Vengeance LPX 16GB (2 x 8GB) DDR4-3200|
-|Storage|2 x Crucial MX500 500GB 2.5" SSD|
-|Video card|Gigabyte GeForce GTX 1080 8GB/iGPU in Mojave|
-|Case|Lazer3D LZ7|
-|PSU|Corsair SF450W Gold|
-
 ## BIOS settings
 I need to add more here but:
 1. VT-d: *disabled*
