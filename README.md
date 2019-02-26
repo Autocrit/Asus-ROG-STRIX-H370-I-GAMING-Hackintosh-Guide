@@ -56,7 +56,8 @@ Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and layo
 ![Audio in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-audio.png "Audio in Clover Configurator")
 
 ### Graphics
-Again this is covered the *The Guide* but
+Again this is covered the *The Guide* but:
+
 iGPU connected
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
@@ -73,7 +74,8 @@ iGPU connectorless
    <data>AwCSPg==</data>
 </dict>
 ```
-##### iGPU HDMI port fix
+
+iGPU HDMI port fix
 I have a dual monitor setup using the DisplayPort and HDMI ports but without these fixes I get no output from the HDMI port, and even with them I have to reconnect the HDMI port after booting.
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
@@ -102,3 +104,10 @@ I have a dual monitor setup using the DisplayPort and HDMI ports but without the
    <data>AgAAAA==</data>
 </dict>
 ```
+
+## USB
+If you are having problems with USB mouse or keyboard not working during or post macOS installation or other USB issues, you probably haven't tackled the 15-port limit that applies to 10.11 onwards.
+
+I recommend following *RehabMan's*  guide to [Creating a Custom SSDT for USBInjectAll.kext](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/). This will limit you to 15 ports (and fewer physical ports because USB 3 ports take up two ports, one for USB 3 and one for USB 2). The locations of the USB ports on the Asus ROG STRIX H370-I GAMING motherboard are:
+
+![Asus H370-I GAMING USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/asus-h370-i-gaming-usb-ports-2.png "Asus H370-I GAMING USB ports")
