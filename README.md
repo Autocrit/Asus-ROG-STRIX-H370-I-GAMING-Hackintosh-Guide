@@ -29,7 +29,7 @@ Other chipsets might require just three EFI drivers: *AptioMemoryFix*, *HFSPlus*
 If your macOS install is freezing/crashing at something like 2 minutes remaining you might not have installed *EmuVariableUefi-64*.
 
 Clover installation options should look like:
-![Clover installation options](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/Clover%20install%20options%202.png "Clover installation options")
+![Clover installation options](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-install-options-2.png "Clover installation options")
 
 ## Kexts
 The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext* (and/or *RealtekRTL8111.kext* for the Realtek LAN port), *USBInjectAll.kext*, *WhateverGreen.kext*, *AppleALC.kext*, *Lilu.kext*, *VirtualSMC.kext* and *XHCI-unsupported.kext*
@@ -39,7 +39,7 @@ The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext
 
 ### Tools
 There are sevreal ways to mount an EFI partition but in general I use Clover Configurator:
-![Mount EFI in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/Clover%20Configigurator%20mount%20EFI.png "Mount EFI in Clover Configurator")
+![Mount EFI in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configigurator-mount-efi.png "Mount EFI in Clover Configurator")
 Kexts can be copied into /Volumes/EFI/EFI/CLOVER/kexts/Other using Finder.
 For config.plist editing I use a text editor e.g. BBEdit (evaluation version), Clover Configurator and a plist editor e.g. Xcode.
 
