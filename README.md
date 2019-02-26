@@ -20,7 +20,7 @@ Clover installation options should look like:
 ![Clover installation options](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-install-options-2.png "Clover installation options")
 
 ## Kexts
-The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext* (and/or *RealtekRTL8111.kext* for the Realtek LAN port), *USBInjectAll.kext*, *WhateverGreen.kext*, *AppleALC.kext*, *Lilu.kext*, *VirtualSMC.kext* and *XHCI-unsupported.kext*
+The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext* (and/or *RealtekRTL8111.kext* for the Realtek LAN port), *USBInjectAll.kext*, *WhateverGreen.kext*, *AppleALC.kext*, *Lilu.kext*, *VirtualSMC.kext* and *XHCI-unsupported.kext*.
 
 ## config.plist
 *CorpNewt*'s guide covers step-by-step the process of creating a config.plist from scratch.
