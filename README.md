@@ -30,7 +30,7 @@ I use [build_lilu.sh](http://headsoft.com.au/download/mac/build_lilu.zip) to clo
 [config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/config.plist)
 
 ### Tools
-There are sevreal ways to mount an EFI partition but in general I use Clover Configurator:
+There are several ways to mount an EFI partition but in general I use Clover Configurator:
 ![Mount EFI in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configigurator-mount-efi.png "Mount EFI in Clover Configurator")
 Kexts can be copied into /Volumes/EFI/EFI/CLOVER/kexts/Other using Finder.
 For config.plist editing I use a text editor e.g. BBEdit (evaluation version), Clover Configurator and a plist editor e.g. Xcode.
