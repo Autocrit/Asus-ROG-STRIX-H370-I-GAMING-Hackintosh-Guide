@@ -100,7 +100,7 @@ I have a dual monitor setup using the DisplayPort and HDMI ports but without the
 ```
 
 ## USB
-If you are having problems with USB mouse or keyboard not working during or post macOS installation or other USB issues, you probably haven't tackled the 15-port limit that applies to 10.11 onwards.
+>:bulb: If you are having problems with USB mouse or keyboard not working during or post macOS installation or other USB issues, you probably haven't tackled the 15-port limit that applies to 10.11 onwards.
 
 I recommend following *RehabMan's*  guide to *[Creating a Custom SSDT for USBInjectAll.kext](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/)*. This will limit you to 15 ports (and fewer physical ports because USB 3 ports use two ports, one for USB 3 and one for USB 2). The locations of the USB ports on the Asus ROG STRIX H370-I GAMING motherboard are:
 
