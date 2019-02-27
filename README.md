@@ -8,8 +8,7 @@ There are, however, some configuration settings and files specific to this mothe
 
 ## BIOS settings
 I need to add more here but:
-1. VT-d: *disabled*
-2. Launch CSM: *enabled* (seems to be necessary to get output from the Nvidia graphics card; otherwise, *disabled* works)
+1. 'Launch CSM: Enabled' seems to be necessary to get output from the Nvidia graphics card; otherwise, 'Launch CSM: Disabled' works)
 
 ## Installing Clover
 Other chipsets might require just three EFI drivers (assuming you're not using FileVault): *AptioMemoryFix*, *HFSPlus* or *VBoxHfs-64* and *ApfsDriverLoader*. H370 also needs *EmuVariableUefi-64* in order to have working sleep, restart and shutdown.
