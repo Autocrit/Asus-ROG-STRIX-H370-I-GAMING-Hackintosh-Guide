@@ -14,8 +14,8 @@ I need to add more here but:
 ## Installing Clover
 Other chipsets might require just three EFI drivers (assuming you're not using FileVault): *AptioMemoryFix*, *HFSPlus* or *VBoxHfs-64* and *ApfsDriverLoader*. H370 also needs *EmuVariableUefi-64* in order to have working sleep, restart and shutdown.
 
-```diff
-&#9432;If your macOS install is freezing/crashing at something like 2 minutes remaining you might not have installed *EmuVariableUefi-64*.
+```
+If your macOS install is freezing/crashing at something like 2 minutes remaining you might not have installed *EmuVariableUefi-64*.
 ```
 
 Clover installation options should look like:
