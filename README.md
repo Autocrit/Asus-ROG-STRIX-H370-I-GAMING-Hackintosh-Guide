@@ -14,7 +14,9 @@ I need to add more here but:
 ## Installing Clover
 Other chipsets might require just three EFI drivers (assuming you're not using FileVault): *AptioMemoryFix*, *HFSPlus* or *VBoxHfs-64* and *ApfsDriverLoader*. H370 also needs *EmuVariableUefi-64* in order to have working sleep, restart and shutdown.
 
+```
 &#9432;If your macOS install is freezing/crashing at something like 2 minutes remaining you might not have installed *EmuVariableUefi-64*.
+```
 
 Clover installation options should look like:
 ![Clover installation options](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-install-options-2.png "Clover installation options")
@@ -37,7 +39,8 @@ For config.plist editing I use a text editor e.g. BBEdit (evaluation version), C
 
 ### Audio
 Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and a layout that works with this motherboard's S1220A codec:
-```<key>Audio</key>
+```
+<key>Audio</key>
 <dict>
 	<key>Inject</key>
 	<integer>7</integer>
