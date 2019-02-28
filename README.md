@@ -72,8 +72,8 @@ iGPU connectorless (use an iMac18,3 SMBIOS)
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
-   <key>AAPL,ig-platform-id</key>
-   <data>AwCSPg==</data>
+	<key>AAPL,ig-platform-id</key>
+	<data>AwCSPg==</data>
 </dict>
 ```
 
@@ -83,28 +83,28 @@ I have a dual monitor setup using the DisplayPort and HDMI ports but without the
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
-   <key>AAPL,ig-platform-id</key>
-   <data>BwCbPg==</data>
-   <key>disable-external-gpu</key>
-   <data>AQAAAA==</data>
-   <key>framebuffer-con1-enable</key>
-   <data>AQAAAA==</data>
-   <key>framebuffer-con1-type</key>
-   <data>AAgAAA==</data>
-   <key>framebuffer-con1-pipe</key>
-   <data>CAAAAA==</data>
-   <key>framebuffer-con1-busid</key>
-   <data>AgAAAA==</data>
-   <key>framebuffer-con2-enable</key>
-   <data>AQAAAA==</data>
-   <key>framebuffer-con2-index</key>
-   <data>/////w==</data>
-   <key>framebuffer-patch-enable</key>
-   <data>AQAAAA==</data>
-   <key>framebuffer-portcount</key>
-   <data>AgAAAA==</data>
-   <key>framebuffer-pipecount</key>
-   <data>AgAAAA==</data>
+	<key>AAPL,ig-platform-id</key>
+	<data>BwCbPg==</data>
+	<key>disable-external-gpu</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-con1-enable</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-con1-type</key>
+	<data>AAgAAA==</data>
+	<key>framebuffer-con1-pipe</key>
+	<data>CAAAAA==</data>
+	<key>framebuffer-con1-busid</key>
+	<data>AgAAAA==</data>
+	<key>framebuffer-con2-enable</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-con2-index</key>
+	<data>/////w==</data>
+	<key>framebuffer-patch-enable</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-portcount</key>
+	<data>AgAAAA==</data>
+	<key>framebuffer-pipecount</key>
+	<data>AgAAAA==</data>
 </dict>
 ```
 
