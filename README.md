@@ -2,7 +2,14 @@
 This is a guide to installing macOS on ROG STRIX H370-I GAMING mini-ITX H370 motherboard, based on *CorpNewt's [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)*.
 
 ## Contents
-1. [Intro](#Intro)
+1. [Intro](#intro)
+2. [BIOS settings](#bios-settings)
+3. [Installing Clover](#installing-clover)
+4. [Kexts](#kexts)
+5. [config.plist](#configplist)
+6. [USB](#usb)
+7. [WiFi and Bluetooth](#wifi-and-bluetooth)
+8. [Feedback](#feedback)
 
 ## Intro
 *CorpNewt*'s *[Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* (which I will refer to as *The Guide*) is just about as clear and easy-to-follow as a guide can be so I wont attempt to duplicate it here. If something is missing here it's probably because it's already covered by *The Guide*.
