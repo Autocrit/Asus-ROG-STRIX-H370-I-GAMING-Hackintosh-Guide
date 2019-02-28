@@ -119,4 +119,5 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
 <string>keepsyms=1 dart=0 debug=0x100 brcmfx-country=UK</string>
 ```
 
-Questions, feedback etc on Reddit https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/
+## Feedback
+Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/
