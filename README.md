@@ -98,6 +98,35 @@ I have a dual monitor setup using the DisplayPort and HDMI ports but without the
 </dict>
 ```
 
+### TRIM for SSDs
+```
+<key>KernelAndKextPatches</key>
+<dict>
+	<key>AppleRTC</key>
+	<true/>
+	<key>KernelPm</key>
+	<true/>
+	<key>KextsToPatch</key>
+	<array>
+		<dict>...</dict>
+		<dict>
+			<key>Comment</key>
+			<string>Enable TRIM for SSD</string>
+			<key>Disabled</key>
+			<false/>
+			<key>Find</key>
+			<data>AEFQUExFIFNTRAA=</data>
+			<key>Name</key>
+			<string>com.apple.iokit.IOAHCIBlockStorage</string>
+			<key>Replace</key>
+			<data>AAAAAAAAAAAAAAA=</data>
+		</dict>
+	</array>
+</dict>
+```
+Clover Configurator has the patch built-in (select it from the drop-down menu)
+![TRIM patch in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-trim.png "")
+
 ## USB
 >:bulb: If you are having problems with USB mouse or keyboard not working during or post macOS installation or other USB issues, you probably haven't tackled the 15-port limit that applies to 10.11 onwards.
 
