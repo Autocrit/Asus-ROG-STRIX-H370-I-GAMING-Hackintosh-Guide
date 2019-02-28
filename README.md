@@ -148,6 +148,8 @@ Example [SSDT-UIAC.dsl](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING
 
 In this example SSDT-UIAC.dsl I have chosen to exclude the internal USB2.0 headers (I don't use them), and port(s) HS05/SS05 (one of the internal-to-front-panel USB 3.1Gen1 ports and its USB2.0 counterpart), leaving a total of 15 ports. The excluded ports are commented-out (i.e. between /\* and \*/).
 
+[IORegistryExplorer USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/ioregistryexplorer-usb.png "IORegistryExplorer USB ports")
+
 As descibed in *RehabMan's*  guide, SSDT-UIAC.dsl needs to be compiled with MaciASL and the resulting file (SSDT-UIAC.aml) is placed in */Volumes/EFI/EFI/CLOVER/ACPI/patched*. *USBInjectAll.kext* and *XHCI-unsupported.kext* are still needed.
 
 ## WiFi and Bluetooth
