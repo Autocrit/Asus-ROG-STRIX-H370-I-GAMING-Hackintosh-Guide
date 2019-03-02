@@ -60,7 +60,7 @@ Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and a la
 ### Graphics
 This is covered by *The Guide* but:
 
-iGPU connected (use an iMac18,1 SMBIOS)
+Connected iGPU (use an iMac18,1 SMBIOS)
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
@@ -68,7 +68,7 @@ iGPU connected (use an iMac18,1 SMBIOS)
 	<data>BwCbPg==</data>
 </dict>
 ```
-iGPU connectorless (use an iMac18,3 SMBIOS)
+Connectorless iGPU (use an iMac18,3 SMBIOS)
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
@@ -108,30 +108,29 @@ I have a dual monitor setup using the DisplayPort and HDMI ports but without the
 </dict>
 ```
 
-### TRIM for SSDs
+Nvidia GPU (High Sierra)
+
+Once macOS is intalled you'll need the Nvidia web drivers that match your macOS build number, the connectorless AAPL,ig-platform-id from above, an iMac18,3 SMBIOS and the following in SystemParameters:
 ```
-<key>KernelAndKextPatches</key>
+<key>NvidiaWeb</key>
+<true/>
+```
+![Clover Configurator NvidiaWeb](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-nvidia.png "Clover Configurator NvidiaWeb")
+
+### TRIM for SSDs
+Add the following inside the KernelAndKextPatches/KextsToPatch array:
+```
 <dict>
-	<key>AppleRTC</key>
-	<true/>
-	<key>KernelPm</key>
-	<true/>
-	<key>KextsToPatch</key>
-	<array>
-		<dict>...</dict>
-		<dict>
-			<key>Comment</key>
-			<string>Enable TRIM for SSD</string>
-			<key>Disabled</key>
-			<false/>
-			<key>Find</key>
-			<data>AEFQUExFIFNTRAA=</data>
-			<key>Name</key>
-			<string>com.apple.iokit.IOAHCIBlockStorage</string>
-			<key>Replace</key>
-			<data>AAAAAAAAAAAAAAA=</data>
-		</dict>
-	</array>
+	<key>Comment</key>
+	<string>Enable TRIM for SSD</string>
+	<key>Disabled</key>
+	<false/>
+	<key>Find</key>
+	<data>AEFQUExFIFNTRAA=</data>
+	<key>Name</key>
+	<string>com.apple.iokit.IOAHCIBlockStorage</string>
+	<key>Replace</key>
+	<data>AAAAAAAAAAAAAAA=</data>
 </dict>
 ```
 Clover Configurator has the patch built-in (select it from the drop-down menu)
