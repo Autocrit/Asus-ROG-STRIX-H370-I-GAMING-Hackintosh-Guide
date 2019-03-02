@@ -34,7 +34,7 @@ The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext
 I use [build_lilu.sh](http://headsoft.com.au/download/mac/build_lilu.zip) to clone and build the latest *Lilu.kext*, *VirtualSMC.kext*, *WhateverGreen.kext*, *AppleALC.kext* etc.
 
 ## config.plist
-*The Guide* covers the process of creating a config.plist step-by-step from scratch. This is the recommended approach but here is an iMac18,1 SMBIOS config.plist as an alternative starting point:
+*The Guide* covers the process of creating a config.plist step-by-step from scratch. This is the recommended approach but here is a sample config.plist (iMac18,1 SMBIOS, connected iGPU) as an alternative starting point:
 
 [imac18,1-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/imac18,1-config.plist)
 
@@ -108,7 +108,7 @@ I have a dual monitor setup using the DisplayPort and HDMI ports but without the
 </dict>
 ```
 
-Nvidia GPU (High Sierra)
+Nvidia GPU (not Mojave for obvious reasons)
 
 Once macOS is intalled you'll need the Nvidia web drivers that match your macOS build number, the connectorless AAPL,ig-platform-id from above, an iMac18,3 SMBIOS and the following in SystemParameters:
 ```
@@ -116,6 +116,10 @@ Once macOS is intalled you'll need the Nvidia web drivers that match your macOS 
 <true/>
 ```
 ![Clover Configurator NvidiaWeb](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-nvidia.png "Clover Configurator NvidiaWeb")
+
+Here's an sample config.plist with those changes (connectorless iGPU, iMac13,1 SMBIOS and NvidiWeb=true)
+
+[iMac18,3-nvidia-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/iMac18,3-nvidia-config.plist)
 
 ### TRIM for SSDs
 Add the following inside the KernelAndKextPatches/KextsToPatch array:
