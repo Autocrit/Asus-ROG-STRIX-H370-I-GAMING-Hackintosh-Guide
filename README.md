@@ -36,7 +36,7 @@ I use [build_lilu.sh](http://headsoft.com.au/download/mac/build_lilu.zip) to clo
 ## config.plist
 *The Guide* covers the process of creating a config.plist step-by-step from scratch. This is the recommended approach but here is an iMac18,1 SMBIOS config.plist as an alternative starting point:
 
-[config-imac18,1.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/config-imac18,1.plist)
+[imac18,1-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/imac18,1-config.plist)
 
 ### Tools
 There are several ways to mount an EFI partition but in general I use Clover Configurator:
