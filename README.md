@@ -137,7 +137,7 @@ Add the following inside the KernelAndKextPatches/KextsToPatch array:
 	<data>AAAAAAAAAAAAAAA=</data>
 </dict>
 ```
-Clover Configurator has the patch built-in (select it from the drop-down menu)
+Clover Configurator has the patch built-in (select it from the drop-down menu), and I've now included it in the sample files
 ![TRIM patch in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-trim.png "TRIM patch in Clover Configurator")
 
 ## USB
