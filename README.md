@@ -122,7 +122,7 @@ Here's an sample config.plist with those changes (connectorless iGPU, iMac13,1 S
 [iMac18,3-nvidia-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/iMac18,3-nvidia-config.plist)
 
 ### TRIM for SSDs
-Add the following inside the KernelAndKextPatches/KextsToPatch array:
+Add the following inside the KernelAndKextPatches/KextsToPatch array (I've included it in the sample files):
 ```
 <dict>
 	<key>Comment</key>
@@ -137,7 +137,7 @@ Add the following inside the KernelAndKextPatches/KextsToPatch array:
 	<data>AAAAAAAAAAAAAAA=</data>
 </dict>
 ```
-Clover Configurator has the patch built-in (select it from the drop-down menu), and I've now included it in the sample files
+Clover Configurator has the patch built-in (select it from the drop-down menu):
 ![TRIM patch in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-trim.png "TRIM patch in Clover Configurator")
 
 ## USB
