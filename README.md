@@ -172,12 +172,12 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
 
 ```
     shift + F10
-diskpart
-list disk (note the disk # e.g. 0)
-select disk # (e.g. select disk 0) 
-clean
-exit
-exit
+    diskpart
+    list disk (note the disk # e.g. 0)
+    select disk # (e.g. select disk 0) 
+    clean
+    exit
+    exit
 ```
 
 * Allow the Windows installer to create the necessary partitions
