@@ -150,7 +150,7 @@ I recommend following *RehabMan's*  guide to *[Creating a Custom SSDT for USBInj
 
 Example [SSDT-UIAC.dsl](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/SSDT-UIAC.dsl)
 
-In this example SSDT-UIAC.dsl I have chosen to exclude the internal USB2.0 headers (I don't use them), and port(s) HS05/SS05 (one of the internal-to-front-panel USB 3.1 Gen 1 ports and its USB 2 counterpart), leaving a total of 15 ports. The excluded ports are commented-out (i.e. between /\* and \*/).
+In this example SSDT-UIAC.dsl I have chosen to exclude the internal USB2.0 headers (I don't use them), and port(s) HS05/SS05 (one of the internal-to-front-panel USB 3.1 Gen 1 ports and its USB 2 counterpart), leaving a total of 15 ports. The excluded ports are commented-out (i.e. between `/*` and `*/`).
 
 ![IORegistryExplorer USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/ioregistryexplorer-usb.png "IORegistryExplorer USB ports")
 
@@ -167,7 +167,7 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
 ## Miscellaneous
 
 ### Dual booting macOS and Windows
-* It is simplest to install Windows on a seperate drive as opposed to sharing the same drive, and to disconnect your macOS drive(s) when installing Windows
+* It is easiest to install Windows on a seperate drive as opposed to sharing the same drive, and to disconnect your macOS drive(s) when installing Windows
 * Clean the drive using the following (during installation)
 ```
 Shift + F10
@@ -179,11 +179,11 @@ exit
 exit
 ```
 * Allow the installer to create the necessary partitions
-* Once both operating systems are installed, set the drive with your EFI partition (usually the drive with macOS on it) as the first boot drive in your BIOS and use the Clover boot screen so select an Windows or Mojave/High Sierra
-* An alternative to dual-booting is to run Windows in a virtual machine and VirtualBox works well for this
+* Once both operating systems are installed, set the drive with your EFI partition (usually the drive with macOS on it) as the first boot drive in your BIOS and use the Clover boot screen so select an operating system
+* An alternative to dual-booting is to run Windows in a virtual machine; VirtualBox (being free) works well for this
 
 ### Testbed
-It's well worth keeping at least one testbed for OS updates, new versions of macOS, new configurations, as a backup etc. Unlike Windows, macOS will happily install to external USB drives and if that drive is a spare SSD in a USB 3.1 Gen 2 enclosure (I have this one https://www.amazon.co.uk/gp/product/B07D2BHVBD), it will be fast. Even a USB 3.0 or 3.1 flash drive will do the job and doesn't cost much.
+It's well worth keeping at least one testbed for macOS updates, new versions, new configurations, as a backup etc. Unlike Windows, macOS will happily install to an external USB drive and if that drive is a spare SSD in a USB 3.1 Gen 2 enclosure (I have this one https://www.amazon.co.uk/gp/product/B07D2BHVBD), it will be fast. Even a USB 3.0 or 3.1 flash drive will do the job and doesn't cost much.
 
 ## Feedback
 Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/
