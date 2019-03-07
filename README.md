@@ -170,7 +170,7 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
 * It is easiest to install Windows on a seperate drive (as opposed to sharing the same drive), and to disconnect the macOS drive(s) when installing Windows
 * Clean the drive using the following (during installation)
 ```
-Shift + F10
+    Shift + F10
 diskpart
 list disk (note the disk # e.g. 0)
 select disk # (e.g. select disk 0) 
