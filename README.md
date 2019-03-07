@@ -170,7 +170,7 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
 * It is easiest to install Windows on a seperate drive (as opposed to sharing the same drive), and to disconnect the macOS drive(s) when installing Windows
 * Clean the drive using the following (during installation)
 
-```
+    ```
     shift + F10
     diskpart
     list disk (note the disk # e.g. 0)
@@ -178,7 +178,7 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
     clean
     exit
     exit
-```
+    ```
 
 * Allow the Windows installer to create the necessary partitions
 * Once both operating systems are installed, set the drive with your EFI partition (usually the drive with macOS on it) as the first boot drive in your BIOS settings and use the Clover boot screen to select an operating system
