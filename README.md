@@ -172,8 +172,8 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
 ```
 Shift + F10
 diskpart
-list disk (note the disk number)
-select disk 0
+list disk (note the disk \# e.g. 0)
+select disk \# (e.g. select disk 0) 
 clean
 exit
 exit
