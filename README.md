@@ -9,6 +9,7 @@ This is a guide to installing macOS on ROG STRIX H370-I GAMING mini-ITX H370 mot
 5. [config.plist](#configplist)
 6. [USB](#usb)
 7. [WiFi and Bluetooth](#wifi-and-bluetooth)
+8. [Miscellaneous] (#miscellaneous)
 8. [Feedback](#feedback)
 
 ## Intro
