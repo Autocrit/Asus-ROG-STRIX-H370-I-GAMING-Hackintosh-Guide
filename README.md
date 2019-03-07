@@ -167,7 +167,7 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
 ## Miscellaneous
 
 ### Dual booting macOS and Windows
-* It is easiest to install Windows on a seperate drive as opposed to sharing the same drive, and to disconnect your macOS drive(s) when installing Windows
+* It is easiest to install Windows on a seperate drive (as opposed to sharing the same drive), and to disconnect the macOS drive(s) when installing Windows
 * Clean the drive using the following (during installation)
 ```
 Shift + F10
@@ -178,12 +178,12 @@ clean
 exit
 exit
 ```
-* Allow the installer to create the necessary partitions
-* Once both operating systems are installed, set the drive with your EFI partition (usually the drive with macOS on it) as the first boot drive in your BIOS and use the Clover boot screen so select an operating system
-* An alternative to dual-booting is to run Windows in a virtual machine; VirtualBox (being free) works well for this
+* Allow the Windows installer to create the necessary partitions
+* Once both operating systems are installed, set the drive with your EFI partition (usually the drive with macOS on it) as the first boot drive in your BIOS settings and use the Clover boot screen to select an operating system
+* An alternative to dual-booting is to run Windows in a virtual machine; VirtualBox, being free, is a good option
 
 ### Testbed
-It's well worth keeping at least one testbed for macOS updates, new versions, new configurations, as a backup etc. Unlike Windows, macOS will happily install to an external USB drive and if that drive is a spare SSD in a USB 3.1 Gen 2 enclosure (I have this one https://www.amazon.co.uk/gp/product/B07D2BHVBD), it will be fast. Even a USB 3.0 or 3.1 flash drive will do the job and doesn't cost much.
+It's well worth keeping at least one testbed for macOS updates, new versions, new configurations, as a backup etc. Unlike Windows, macOS will happily install to an external USB drive, and if that drive is a spare SSD in a USB 3.1 Gen 2 enclosure (I have this one https://www.amazon.co.uk/gp/product/B07D2BHVBD), it will be fast. Even a USB 3.0 or 3.1 flash drive will do the job and doesn't cost much.
 
 ## Feedback
 Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/
