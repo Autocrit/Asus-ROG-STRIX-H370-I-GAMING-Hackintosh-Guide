@@ -11,8 +11,8 @@ This is a guide to installing macOS on ROG STRIX H370-I GAMING mini-ITX H370 mot
 5. [config.plist](#configplist)
 6. [USB](#usb)
 7. [WiFi and Bluetooth](#wifi-and-bluetooth)
-8. [Miscellaneous](#miscellaneous)
-8. [Feedback](#feedback)
+8. [Random stuff](#random-stuff)
+9. [Feedback](#feedback)
 
 ## Intro
 *CorpNewt*'s *[Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* (which I will refer to as *The Guide*) is just about as clear and easy-to-follow as a guide can be so I wont attempt to duplicate it here. If something is missing here it's probably because it's already covered by *The Guide*.
@@ -166,7 +166,7 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
 <string>keepsyms=1 dart=0 debug=0x100 brcmfx-country=UK</string>
 ```
 
-## Miscellaneous
+## Random stuff
 
 ### Dual booting macOS and Windows
 * It is easiest to install Windows on a seperate drive (as opposed to sharing the same drive), and to disconnect the macOS drive(s) when installing Windows
