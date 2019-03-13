@@ -22,7 +22,7 @@ There are some configuration settings and files specific to this motherboard (an
 ## BIOS settings
 I need to add more here but:
 1. `Launch CSM: Enabled` seems to be necessary to get output from an Nvidia GTX 1080 graphics card; otherwise, `Launch CSM: Disabled` works)
-2. [BIOS version 2012 problem/solution](https://www.tonymacx86.com/threads/a-solution-of-asus-new-bios-ver-2012-not-downgrading.273151/)
+2. BIOS version 2012 problem/solution by Satanichia on [tonymacx86.com](https://www.tonymacx86.com/threads/a-solution-of-asus-new-bios-ver-2012-not-downgrading.273151/)
 
 ## Installing Clover
 Other chipsets might require just three EFI drivers (assuming you're not using FileVault): *AptioMemoryFix*, *HFSPlus* or *VBoxHfs-64* and *ApfsDriverLoader*. H370 also needs *EmuVariableUefi-64* in order to have working sleep, restart and shutdown.
