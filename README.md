@@ -112,9 +112,9 @@ I have a dual monitor setup using the DisplayPort and HDMI ports but without the
 </dict>
 ```
 
-Nvidia GPU (not Mojave for obvious reasons)
+Nvidia GPU (for High Sierra)
 
-Once macOS is intalled you'll need the Nvidia web drivers that match your macOS build number, the connectorless AAPL,ig-platform-id from above, an iMac18,3 SMBIOS and the following in SystemParameters:
+Once macOS is intalled you'll need the Nvidia driver version that matches your macOS build number (listed [here](https://gfe.nvidia.com/mac-update)), the connectorless AAPL,ig-platform-id from above, an iMac18,3 SMBIOS and the following in SystemParameters:
 ```
 <key>NvidiaWeb</key>
 <true/>
