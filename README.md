@@ -64,7 +64,7 @@ Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and a la
 ### Graphics
 This is covered by *The Guide* but:
 
-Connected iGPU (use an iMac18,1 SMBIOS)
+**Connected iGPU** (use an iMac18,1 SMBIOS)
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
@@ -72,7 +72,7 @@ Connected iGPU (use an iMac18,1 SMBIOS)
 	<data>BwCbPg==</data>
 </dict>
 ```
-Connectorless iGPU (use an iMac18,3 SMBIOS)
+**Connectorless iGPU** (use an iMac18,3 SMBIOS)
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
@@ -81,7 +81,7 @@ Connectorless iGPU (use an iMac18,3 SMBIOS)
 </dict>
 ```
 
-iGPU HDMI port fix
+**iGPU HDMI port fix**
 
 I have a dual monitor setup using the DisplayPort and HDMI ports but without these fixes I get no output from the HDMI port, and even with them I have to reconnect the HDMI port after booting.
 ```
@@ -112,7 +112,7 @@ I have a dual monitor setup using the DisplayPort and HDMI ports but without the
 </dict>
 ```
 
-Nvidia GPU (for High Sierra)
+**Nvidia GPU** (for High Sierra)
 
 Once macOS is intalled you'll need the Nvidia driver version that matches your macOS build number (listed [here](https://gfe.nvidia.com/mac-update)), the connectorless AAPL,ig-platform-id from above, an iMac18,3 SMBIOS and the following in SystemParameters:
 ```
