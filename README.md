@@ -11,7 +11,7 @@ This is a guide to installing macOS on ROG STRIX H370-I GAMING mini-ITX H370 mot
 5. [config.plist](#configplist)
 6. [USB](#usb)
 7. [WiFi and Bluetooth](#wifi-and-bluetooth)
-8. [Random stuff](#random-stuff)
+8. [Miscellaneous](#miscellaneous)
 9. [Feedback](#feedback)
 
 ## Intro
@@ -169,7 +169,7 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
 <string>keepsyms=1 dart=0 debug=0x100 brcmfx-country=UK</string>
 ```
 
-## Random stuff
+## Miscellaneous
 
 ### Dual booting macOS and Windows
 * It is easiest to install Windows on a seperate drive (as opposed to sharing the same drive), and to disconnect the macOS drive(s) when installing Windows
@@ -189,7 +189,7 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
 * Once both operating systems are installed, set the drive with your EFI partition (usually the drive with macOS on it) as the first boot drive in your BIOS settings and use the Clover boot screen to select an operating system
 * An alternative to dual-booting is to run Windows in a virtual machine; VirtualBox, being free, is a good option
 
-### Testbed
+### Testing
 It is a good idea to keep at least one testbed for macOS updates, new versions, new configurations, as a backup etc. Unlike Windows, macOS will happily install to an external drive, and if that drive is a spare SSD in a USB 3.1 Gen 2 enclosure (I have this one https://www.amazon.co.uk/gp/product/B07D2BHVBD), it will be fast. Even a USB 3.0 or 3.1 flash drive will do the job and doesn't cost much. Carbon Copy Cloner can be used to clone the contents of a drive back-and-forth to the test drive.
 
 ## Feedback
