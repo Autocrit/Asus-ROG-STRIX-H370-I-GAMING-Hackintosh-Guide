@@ -161,6 +161,7 @@ As descibed in *RehabMan's*  guide, SSDT-UIAC.dsl needs to be compiled with Maci
 
 ## WiFi and Bluetooth
 ![Bluetooth](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/bluetooth.png "Bluetooth")
+
 I replaced the Intel WiFi/BT card with a Broadcom BCM94352Z based DW1560 from [Ebay](https://www.ebay.co.uk/itm/172212358962).
 For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatchRAM2.kext*. I also added a `brcmfx-country=XX` boot argument e.g.
 ```
