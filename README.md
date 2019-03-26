@@ -72,7 +72,7 @@ This is covered by *The Guide* but:
 	<data>BwCbPg==</data>
 </dict>
 ```
-**Connectorless iGPU** (use an iMac18,3 SMBIOS)
+**Connector-less iGPU** (use an iMac18,3 SMBIOS)
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
