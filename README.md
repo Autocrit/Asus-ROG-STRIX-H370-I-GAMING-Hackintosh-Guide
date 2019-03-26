@@ -114,14 +114,14 @@ I have a dual monitor setup using the DisplayPort and HDMI ports but without the
 
 **Nvidia GPU** (for High Sierra)
 
-Once macOS is intalled you'll need the Nvidia driver version that matches your macOS build number (listed [here](https://gfe.nvidia.com/mac-update)), the connectorless AAPL,ig-platform-id from above, an iMac18,3 SMBIOS and the following in SystemParameters:
+Once macOS is intalled you'll need the Nvidia driver version that matches your macOS build number (listed [here](https://gfe.nvidia.com/mac-update)), the connector-less AAPL,ig-platform-id from above, an iMac18,3 SMBIOS and the following in SystemParameters:
 ```
 <key>NvidiaWeb</key>
 <true/>
 ```
 ![Clover Configurator NvidiaWeb](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-nvidia.png "Clover Configurator NvidiaWeb")
 
-Here's an sample config.plist with those changes (connectorless iGPU, iMac13,1 SMBIOS and NvidiWeb=true)
+Here's an sample config.plist with those changes (connector-less iGPU, iMac13,1 SMBIOS and NvidiWeb=true)
 
 [iMac18,3-nvidia-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/iMac18,3-nvidia-config.plist)
 
