@@ -121,7 +121,7 @@ Once macOS is intalled you'll need the Nvidia driver version that matches your m
 ```
 ![Clover Configurator NvidiaWeb](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-nvidia.png "Clover Configurator NvidiaWeb")
 
-Here's an sample config.plist with those changes (connector-less iGPU, iMac13,1 SMBIOS and NvidiWeb=true)
+Here's an sample config.plist with those changes (connector-less iGPU, iMac18,3 SMBIOS and NvidiWeb=true)
 
 [iMac18,3-nvidia-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/iMac18,3-nvidia-config.plist)
 
