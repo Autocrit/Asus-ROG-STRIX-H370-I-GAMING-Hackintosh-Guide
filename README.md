@@ -125,6 +125,8 @@ Here's an sample config.plist with those changes (connector-less iGPU, iMac18,3 
 
 [iMac18,3-nvidia-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/iMac18,3-nvidia-config.plist)
 
+>:bulb: If you accidently update High Sierra to a new build number (a security update for example) before there are Nvidia drivers available, don't panic https://www.reddit.com/r/hackintosh/comments/7sr4vv/nvidia_web_drivers_and_you_a_patching_guide_for/.
+
 ### TRIM for SSDs
 Add the following inside the KernelAndKextPatches/KextsToPatch array (I've included it in the sample files):
 ```
