@@ -173,6 +173,9 @@ For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatch
 
 ## Miscellaneous
 
+### My system
+CPU: Core i7-8700K | Cooler: Noctua NH-L12S | Motherboard: Asus ROG STRIX H370-I GAMING | Memory: Corsair Vengeance LPX 16GB (2 x 8GB) DDR4-3200 | Storage: 2 x Crucial MX500 500GB 2.5" SSD | Video card: Gigabyte GeForce GTX 1080 8GB Mini ITX | Case: Lazer3D LZ7 | PSU: Corsair SF450W Gold
+
 ### Dual booting macOS and Windows
 * It is easiest to install Windows on a seperate drive (as opposed to sharing the same drive), and to disconnect the macOS drive(s) when installing Windows
 * Clean the drive using the following (during installation)
