@@ -192,6 +192,7 @@ CPU: Core i7-8700K | Cooler: Noctua NH-L12S | Motherboard: Asus ROG STRIX H370-I
 
 * Allow the Windows installer to create the necessary partitions
 * Once both operating systems are installed, set the drive with your EFI partition (usually the drive with macOS on it) as the first boot drive in your BIOS settings and use the Clover boot screen to select an operating system
+* Fix the time discrepancy in Windows by forcing it to use UTC. In regedit, add a new DWORD named '*RealTimeIsUniversal*' with a value of '*1*' to *HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation*. Google for more information
 * An alternative to dual-booting is to run Windows in a virtual machine; VirtualBox, being free, is a good option
 
 ### Testing
