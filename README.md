@@ -83,7 +83,7 @@ This is covered by *The Guide* but:
 
 **iGPU HDMI port fix**
 
-I have a dual monitor setup using the DisplayPort and HDMI ports but without these fixes I get no output from the HDMI port, and even with them I have to reconnect the HDMI port after booting (it appears to work without reconnecting with 10.14.5).
+I have a dual monitor setup using the DisplayPort and HDMI ports but without these fixes I get no output from the HDMI port, and even with them I have to reconnect the HDMI port after booting (although it appears to work without reconnecting in 10.14.5).
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 <dict>
