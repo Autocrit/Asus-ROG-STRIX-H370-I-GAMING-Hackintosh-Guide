@@ -196,7 +196,7 @@ CPU: Core i7-8700K | Cooler: Noctua NH-L12S | Motherboard: Asus ROG STRIX H370-I
 * An alternative to dual-booting is to run Windows in a virtual machine; VirtualBox, being free, is a good option
 
 ### Testing
-It is a good idea to keep at least one testbed for macOS updates, new versions, new configurations, as a backup etc. Unlike Windows, macOS will happily install to an external drive, and if that drive is a spare SSD in a USB 3.1 Gen 2 enclosure (I have this one https://www.amazon.co.uk/gp/product/B07D2BHVBD), it will be fast. Even a USB 3.0 or 3.1 flash drive will do the job and doesn't cost much. Carbon Copy Cloner can be used to clone the contents of a drive back-and-forth to the test drive.
+It is a good idea to keep at least one testbed for macOS updates, new versions, new configurations, as a backup etc. Unlike Windows, macOS will happily install to an external drive, and if that drive is a spare SSD in a USB 3.1 Gen 2 enclosure (I have this one https://www.amazon.co.uk/gp/product/B07D2BHVBD), it will be fast. Even a USB 3.0 or 3.1 flash drive will do the job and doesn't cost much. Something like a Samsung T5 portable SSD is a good option as well. Carbon Copy Cloner can be used to clone the contents of a drive back-and-forth to the test drive.
 
 ## Feedback
 Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/. 
