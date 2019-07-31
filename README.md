@@ -32,6 +32,12 @@ Other chipsets might require just three EFI drivers (assuming you're not using F
 Clover installation options should look like:
 ![Clover installation options](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-install-options-2.png "Clover installation options")
 
+With more recent (e.g. v2.5k r5033) versions of Clover *ApfsDriverLoader*, *AptioMemoryFix* and *HFSPlus* are in UEFI Drivers->Recommended drivers
+![New Clover installation options 1](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-install-options-3.png "New Clover installation options 1")
+
+amd *EmuVariableUefi* is in UEFI Drivers->Additional drivers
+![New Clover installation options 2](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-install-options-4.png "New Clover installation options 2")
+
 ## Kexts
 The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext* (and/or *RealtekRTL8111.kext* for the Realtek LAN port), *USBInjectAll.kext*, *WhateverGreen.kext*, *AppleALC.kext*, *Lilu.kext*, *VirtualSMC.kext* and *XHCI-unsupported.kext*.
 
