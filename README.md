@@ -152,9 +152,9 @@ Clover Configurator has the patch built-in (select it from the drop-down menu):
 
 As stated earlier, generating your own *config.plist* is the recommended approach as it will match your requirements and you'll be a step closer to being able to modify settings when the need arises.
 
-If you choose to use a pre-made *config.plist* (from here or elsewhere), you should at least generate your own SMBIOS information as described in this section of CorpNewt's guide.
+If you choose to use a pre-made *config.plist* (from here or elsewhere), you should at least generate your own SMBIOS information as described in [this](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/coffee-lake#rtvariables-and-smbios) section of *CorpNewt*'s guide.
 
-(Rename the downloaded file to config.plist.)
+(Rename the downloaded file to *config.plist*.)
 
 **Sample connected iGPU config.plist**
 
