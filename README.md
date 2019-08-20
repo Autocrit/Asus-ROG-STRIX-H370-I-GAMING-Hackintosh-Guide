@@ -44,9 +44,7 @@ The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext
 I use [build_lilu.sh](http://headsoft.com.au/download/mac/build_lilu.zip) to clone and build the latest *Lilu.kext*, *VirtualSMC.kext*, *WhateverGreen.kext*, *AppleALC.kext* etc.
 
 ## config.plist
-*The Guide* covers the process of creating a config.plist step-by-step from scratch. This is the recommended approach but here is a sample config.plist (iMac18,1 SMBIOS, connected iGPU) as an alternative starting point:
-
-[imac18,1-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/imac18,1-config.plist)
+*The Guide* covers the process of creating a config.plist step-by-step from scratch. This is the recommended approach but I have included two sample *config.plists* at the end of this section.
 
 ### Tools
 There are several ways to mount an EFI partition but in general I use Clover Configurator:
@@ -129,10 +127,6 @@ Once macOS is intalled you'll need the Nvidia driver version that matches your m
 ```
 ![Clover Configurator NvidiaWeb](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-nvidia.png "Clover Configurator NvidiaWeb")
 
-Here's an sample config.plist with those changes (connector-less iGPU, iMac18,3 SMBIOS and NvidiWeb=true)
-
-[iMac18,3-nvidia-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/iMac18,3-nvidia-config.plist)
-
 >:bulb: If you accidently update High Sierra to a new build number (a security update for example) before there are Nvidia drivers available, don't panic https://www.reddit.com/r/hackintosh/comments/7sr4vv/nvidia_web_drivers_and_you_a_patching_guide_for/.
 
 ### TRIM for SSDs
@@ -153,6 +147,26 @@ Add the following inside the KernelAndKextPatches/KextsToPatch array (I've inclu
 ```
 Clover Configurator has the patch built-in (select it from the drop-down menu):
 ![TRIM patch in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-trim.png "TRIM patch in Clover Configurator")
+
+### Sample config.plists
+
+As stated earlier, generating your own *config.plist* is the recommended approach as it will match your requirements and you'll be a step closer to being able to modify settings when the need arises.
+
+If you choose to use a pre-made *config.plist* (from here or elsewhere), you should at least generate your own SMBIOS information as described in this section of CorpNewt's guide.
+
+(Rename the downloaded file to config.plist.)
+
+**Sample connected iGPU config.plist**
+
+The first sample config.plist uses an iMac18,1 SMBIOS for a connected iGPU:
+
+[imac18,1-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/imac18,1-config.plist)
+
+**Sample connector-less iGPU and Nvidia gpu config.plist**
+
+The second sample uses an iMac18.3 SMBIOS and sets NvidiaWeb=true for Nvidia web drivers.
+
+[iMac18,3-nvidia-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/iMac18,3-nvidia-config.plist)
 
 ## USB
 >:bulb: If you are having problems with USB mouse or keyboard not working during or post macOS installation or other USB issues, you probably haven't tackled the 15-port limit that applies to 10.11 onwards.
