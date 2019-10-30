@@ -224,3 +224,5 @@ It is a good idea to keep at least one testbed for macOS updates, new versions, 
 Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/. 
 
 This guide on GitBook: https://autopilot.gitbook.io/asus-rog-stix-h370-i-gaming-hackintosh/
+
+![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/banner3.jpg "Banner")
