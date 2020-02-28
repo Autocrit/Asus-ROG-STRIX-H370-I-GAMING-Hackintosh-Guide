@@ -13,6 +13,7 @@ This is a guide to installing macOS on ROG STRIX H370-I GAMING mini-ITX H370 mot
 7. [WiFi and Bluetooth](#wifi-and-bluetooth)
 8. [Miscellaneous](#miscellaneous)
 9. [Feedback](#feedback)
+10. [Febuary 2020 update](#Febuary-2020-update)
 
 ## Intro
 *CorpNewt*'s *[Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* (which I will refer to as *The Guide*) is just about as clear and easy-to-follow as a guide can be so I wont attempt to duplicate it here. If something is missing here it's probably because it's already covered by *The Guide*.
@@ -226,3 +227,11 @@ Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/a
 This guide on GitBook: https://autopilot.gitbook.io/asus-rog-stix-h370-i-gaming-hackintosh/
 
 ![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/banner3.jpg "Banner")
+
+## Febuary 2020 update
+
+I moved to a Dan A4-SFX V4.1 case with a new cooler (Noctua NH-L9i), 2 x Samsung 970 EVO Plus 500 GB NVMe M.2 (for Windows and macOS), Powercolor AMD Radeon RX 5700 XT Red Dragon, a Corsair SF600 Platinum PSU and a Noctua NF-A9x14 case fan.
+
+So far I'm using an iMacPro1,1 SMBIOS and have dual monitors with 1 DisplayPort and 1 HDMI port.
+
+Still using Clover for now, same drivers and kexts but without WiFi and Bluetooth.
