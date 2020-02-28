@@ -232,6 +232,7 @@ This guide on GitBook: https://autopilot.gitbook.io/asus-rog-stix-h370-i-gaming-
 
 I moved to a Dan A4-SFX V4.1 case with a new cooler (Noctua NH-L9i), 2 x Samsung 970 EVO Plus 500 GB NVMe M.2 (for Windows and macOS), Powercolor AMD Radeon RX 5700 XT Red Dragon, a Corsair SF600 Platinum PSU and a Noctua NF-A9x14 case fan.
 
-So far I'm using an iMacPro1,1 SMBIOS and have dual monitors with 1 DisplayPort and 1 HDMI port.
-
 Still using Clover for now, same drivers and kexts but without WiFi and Bluetooth.
+
+So far I'm using an iMacPro1,1 SMBIOS and have dual monitors with 1 DisplayPort and 1 HDMI port. The config.plist looks something like:
+[iMacPro1,1-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/iMacPro1,1-config.plist)
