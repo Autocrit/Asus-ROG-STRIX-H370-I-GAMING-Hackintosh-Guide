@@ -224,11 +224,9 @@ It is a good idea to keep at least one testbed for macOS updates, new versions, 
 ## Feedback
 Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/. 
 
-This guide on GitBook: https://autopilot.gitbook.io/asus-rog-stix-h370-i-gaming-hackintosh/
+## Febuary 2020 update
 
 ![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/banner3.jpg "Banner")
-
-## Febuary 2020 update
 
 I moved to a Dan A4-SFX V4.1 case with a new cooler (Noctua NH-L9i), 2 x Samsung 970 EVO Plus 500 GB NVMe M.2 (for Windows and macOS), Powercolor AMD Radeon RX 5700 XT Red Dragon, a Corsair SF600 Platinum PSU and a Noctua NF-A9x14 case fan.
 
