@@ -228,7 +228,7 @@ Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/a
 
 ![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/banner3.jpg "Banner")
 
-I moved to a Dan A4-SFX V4.1 case with a new cooler (Noctua NH-L9i), 2 x Samsung 970 EVO Plus 500 GB NVMe M.2 (for Windows and macOS), Powercolor AMD Radeon RX 5700 XT Red Dragon, a Corsair SF600 Platinum PSU and a Noctua NF-A9x14 case fan.
+I have moved to a Dan A4-SFX V4.1 case with a Noctua NH-L9i CPU cooler, 2 x Samsung 970 EVO Plus 500 GB NVMe M.2, Powercolor AMD Radeon RX 5700 XT Red Dragon, a Corsair SF600 Platinum PSU and a Noctua NF-A9x14 case fan.
 
 Still using Clover for now, same drivers and kexts but without WiFi and Bluetooth.
 
