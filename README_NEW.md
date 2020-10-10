@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/banner4.jpg "Banner")
+![Banner]https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/banner4.jpg "Banner")
 
 # Asus ROG STRIX H370-I GAMING Hackintosh Guide
 The old version of this guide, using Clover and *CorpNewt's [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* method can be found [here](README_OLD.md).
