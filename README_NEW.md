@@ -33,12 +33,13 @@ I'm using an *iMac19,1* SMBIOS
 
 ## Audio
 - my layout id is 7, so I have this in DeviceProperies:
-
+```
 <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 <dict>
 	<key>layout-id</key>
 	<data>BwAAAA==</data>
 </dict>
+```
 
 ## Troubleshooting
 ### RTC/CMOS error
