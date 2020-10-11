@@ -9,7 +9,7 @@ The old version of this guide, using Clover and *CorpNewt's [Hackintosh Vanilla 
 CPU: Core i7-8700K | Cooler: Noctua NH-L9I Chromax | Motherboard: Asus ROG STRIX H370-I GAMING | Memory: Corsair Vengeance LPX 16GB (2 x 8GB) DDR4-3200 | Storage: 2 x Samsung 970 Evo Plus | Video card: AMD Radeon RX 5700 XT | Case: Dan A4-SFX | PSU: Corsair SF600 Platinum
 
 ## OpenCore guide
-I followed the [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) guide step-by-step and so far the results are good. I don't need to add much.
+I followed the [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) guide step-by-step and so far the results are good. I'm new to OpenCore so I'll only add a few comments.
 
 ## ACPI
 I ran SSDTTime in Windows with the following options:
