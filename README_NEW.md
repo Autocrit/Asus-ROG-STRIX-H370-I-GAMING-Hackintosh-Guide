@@ -25,18 +25,11 @@ Then added:
 ## PlatformInfo
 I'm using an *iMac19,1* SMBIOS
 
-## Post-install
-On restart I was getting the BIOS error "The system has posted in safe mode". This is fxed with:
-- set DisableRtcChecksum in Kernal->Quirks to true
-
 ## USB 15 port limit
 - although the cleaner method is probably to generate a USBMap.kext, I'm still using USBInjectAll.kext, XHCI-unsupported.kext and SSDT-UIAC.aml generated previously
 - this graphic might still be useful:
 ![Asus H370-I GAMING USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/asus-h370-i-gaming-usb-ports-2.png "Asus H370-I GAMING USB ports")
 - example [SSDT-UIAC.dsl](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/SSDT-UIAC.dsl) with unused/excluded ports commented out
-
-## OpenCore GUI
-- this isn't not working at the moment and I'm not sure why
 
 ## Audio
 - my layout id is 7, so I have this in DeviceProperies:
@@ -46,6 +39,13 @@ On restart I was getting the BIOS error "The system has posted in safe mode". Th
 	<key>layout-id</key>
 	<data>BwAAAA==</data>
 </dict>
+
+## Troubleshooting
+### RTC/CMOS error
+- on restart I was getting the BIOS error "The system has posted in safe mode". This is fxed with *DisableRtcChecksum* in Kernal->Quirks set to *true*
+
+### OpenCore GUI
+- this isn't not working at the moment and I'm not sure why
 
 ## Feedback
 Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/. 
