@@ -25,7 +25,7 @@ Then added:
 ## PlatformInfo
 I'm using an *iMac19,1* SMBIOS
 
-## Post install
+## Post-install
 On restart I was getting the BIOS error "The system has posted in safe mode". This is fxed with:
 - set DisableRtcChecksum in Kernal->Quirks to true
 
