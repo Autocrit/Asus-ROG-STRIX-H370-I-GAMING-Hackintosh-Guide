@@ -13,7 +13,7 @@ The old version of this guide, using Clover and *CorpNewt's [Hackintosh Vanilla 
 * Storage: 2 x Samsung 970 Evo Plus 500 GB M.2-2280 NVME Solid State Drive
 * Video card: PowerColor Radeon RX 5700 XT 8 GB Red Dragon
 * Case: DAN Cases A4-SFXv4.1
-* Power dupply: Corsair SF 600W 80+ Platinum
+* Power supply: Corsair SF 600W 80+ Platinum
 
 ## OpenCore guide
 I followed the [*Dortania*](https://dortania.github.io/OpenCore-Install-Guide/) guide step-by-step and so far the results are good. As I'm new to OpenCore I'll only add a few comments.
