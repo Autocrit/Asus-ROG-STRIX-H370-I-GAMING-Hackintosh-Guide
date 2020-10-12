@@ -6,7 +6,14 @@
 The old version of this guide, using Clover and *CorpNewt's [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* can be found [*here*](README_OLD.md).
 
 ## My system
-CPU: Core i7-8700K | Cooler: Noctua NH-L9I Chromax | Motherboard: Asus ROG STRIX H370-I GAMING | Memory: Corsair Vengeance LPX 16GB (2 x 8GB) DDR4-3200 | Storage: 2 x Samsung 970 Evo Plus | Video card: AMD Radeon RX 5700 XT | Case: Dan A4-SFX | PSU: Corsair SF600 Platinum
+CPU: Intel Core i7-8700K	
+CPU cooler: Noctua NH-L9i chromax.black
+Motherboard: Asus ROG Strix H370-I Gaming	
+Memory: Corsair Vengeance LPX 16 GB (2 x 8 GB) DDR4-3200
+Storage: 2 x Samsung 970 Evo Plus 500 GB M.2-2280 NVME Solid State Drive	
+Video card: PowerColor Radeon RX 5700 XT 8 GB Red Dragon
+Case: DAN Cases A4-SFXv4.1
+Power dupply: Corsair SF 600W 80+ Platinum
 
 ## OpenCore guide
 I followed the [*Dortania*](https://dortania.github.io/OpenCore-Install-Guide/) guide step-by-step and so far the results are good. As I'm new to OpenCore I'll only add a few comments.
