@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/banner.jpg "Banner")
+![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/banner.jpg "Banner")
 
 # Asus ROG STRIX H370-I GAMING Hackintosh Guide
 This is a guide to installing macOS on ROG STRIX H370-I GAMING mini-ITX H370 motherboard, based on *CorpNewt's [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)*.
@@ -31,13 +31,13 @@ Other chipsets might require just three EFI drivers (assuming you're not using F
 >:bulb: If your macOS install is freezing/crashing at something like 2 minutes remaining you might not have installed *EmuVariableUefi-64*.
 
 Clover installation options should look like:
-![Clover installation options](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-install-options-2.png "Clover installation options")
+![Clover installation options](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/clover-install-options-2.png "Clover installation options")
 
 With more recent (e.g. v2.5k r5033) versions of Clover *ApfsDriverLoader*, *AptioMemoryFix* and *HFSPlus* are in UEFI Drivers->Recommended drivers
-![New Clover installation options 1](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-install-options-3.png "New Clover installation options 1")
+![New Clover installation options 1](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/clover-install-options-3.png "New Clover installation options 1")
 
 amd *EmuVariableUefi* is in UEFI Drivers->Additional drivers
-![New Clover installation options 2](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-install-options-4.png "New Clover installation options 2")
+![New Clover installation options 2](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/clover-install-options-4.png "New Clover installation options 2")
 
 ## Kexts
 The required kexts are as described in *The Guide* i.e. *IntelMausiEthernet.kext* (and/or *RealtekRTL8111.kext* for the Realtek LAN port), *USBInjectAll.kext*, *WhateverGreen.kext*, *AppleALC.kext*, *Lilu.kext*, *VirtualSMC.kext* and *XHCI-unsupported.kext*.
@@ -49,7 +49,7 @@ I use [build_lilu.sh](http://headsoft.com.au/download/mac/build_lilu.zip) to clo
 
 ### Tools
 There are several ways to mount an EFI partition but in general I use Clover Configurator:
-![Mount EFI in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configigurator-mount-efi.png "Mount EFI in Clover Configurator")
+![Mount EFI in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/clover-configigurator-mount-efi.png "Mount EFI in Clover Configurator")
 Kexts can be copied into /Volumes/EFI/EFI/CLOVER/kexts/Other using Finder.
 For config.plist editing I use a text editor e.g. BBEdit (evaluation version), Clover Configurator and a plist editor e.g. Xcode.
 
@@ -64,7 +64,7 @@ Audio is enabled by *AppleALC.kext* (which is dependent on *Lilu.kext*) and a la
 	<true/>
 </dict>
 ```
-![Audio in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-audio.png "Audio in Clover Configurator")
+![Audio in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/clover-configurator-audio.png "Audio in Clover Configurator")
 
 ### Graphics
 This is covered by *The Guide* but:
@@ -126,7 +126,7 @@ Once macOS is intalled you'll need the Nvidia driver version that matches your m
 <key>NvidiaWeb</key>
 <true/>
 ```
-![Clover Configurator NvidiaWeb](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-nvidia.png "Clover Configurator NvidiaWeb")
+![Clover Configurator NvidiaWeb](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/clover-configurator-nvidia.png "Clover Configurator NvidiaWeb")
 
 >:bulb: If you accidently update High Sierra to a new build number (a security update for example) before there are Nvidia drivers available, don't panic https://www.reddit.com/r/hackintosh/comments/7sr4vv/nvidia_web_drivers_and_you_a_patching_guide_for/.
 
@@ -147,7 +147,7 @@ Add the following inside the KernelAndKextPatches/KextsToPatch array (I've inclu
 </dict>
 ```
 Clover Configurator has the patch built-in (select it from the drop-down menu):
-![TRIM patch in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/clover-configurator-trim.png "TRIM patch in Clover Configurator")
+![TRIM patch in Clover Configurator](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/clover-configurator-trim.png "TRIM patch in Clover Configurator")
 
 ### Sample config.plists
 
@@ -161,31 +161,31 @@ If you choose to use a pre-made *config.plist* (from here or elsewhere), you sho
 
 The first sample config.plist uses an iMac18,1 SMBIOS for a connected iGPU:
 
-[imac18,1-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/imac18,1-config.plist)
+[imac18,1-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/resources/imac18,1-config.plist)
 
 **Sample connector-less iGPU and Nvidia gpu config.plist**
 
 The second sample uses an iMac18.3 SMBIOS and sets NvidiaWeb=true for Nvidia web drivers.
 
-[iMac18,3-nvidia-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/iMac18,3-nvidia-config.plist)
+[iMac18,3-nvidia-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/resources/iMac18,3-nvidia-config.plist)
 
 ## USB
 >:bulb: If you are having problems with USB mouse or keyboard not working during or post macOS installation or other USB issues, you probably haven't tackled the 15-port limit that applies to 10.11 onwards.
 
 I recommend following *RehabMan's*  guide to *[Creating a Custom SSDT for USBInjectAll.kext](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/)*. This will limit you to 15 ports (and fewer physical ports because USB 3 ports use two ports, one for USB 3 and one for USB 2). The locations of the USB ports on the Asus ROG STRIX H370-I GAMING motherboard are:
 
-![Asus H370-I GAMING USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/asus-h370-i-gaming-usb-ports-2.png "Asus H370-I GAMING USB ports")
+![Asus H370-I GAMING USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/asus-h370-i-gaming-usb-ports-2.png "Asus H370-I GAMING USB ports")
 
-Example [SSDT-UIAC.dsl](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/SSDT-UIAC.dsl)
+Example [SSDT-UIAC.dsl](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/resources/SSDT-UIAC.dsl)
 
 In this example SSDT-UIAC.dsl I have chosen to exclude the internal USB2.0 headers (I don't use them), and port(s) HS05/SS05 (one of the internal-to-front-panel USB 3.1 Gen 1 ports and its USB 2 counterpart), leaving a total of 15 ports. The excluded ports are commented-out (i.e. between `/*` and `*/`).
 
-![IORegistryExplorer USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/ioregistryexplorer-usb.png "IORegistryExplorer USB ports")
+![IORegistryExplorer USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/ioregistryexplorer-usb.png "IORegistryExplorer USB ports")
 
 As descibed in *RehabMan's*  guide, SSDT-UIAC.dsl needs to be compiled with MaciASL and the resulting file (SSDT-UIAC.aml) is placed in */Volumes/EFI/EFI/CLOVER/ACPI/patched*. *USBInjectAll.kext* and *XHCI-unsupported.kext* are still needed.
 
 ## WiFi and Bluetooth
-![Bluetooth](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/bluetooth2.png "Bluetooth")
+![Bluetooth](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/bluetooth2.png "Bluetooth")
 
 I replaced the Intel WiFi/BT card with a Broadcom BCM94352Z based DW1560 from [Ebay](https://www.ebay.co.uk/itm/172212358962).
 For kexts I have *AirportBrcmFixup.kext*, *BrcmFirmwareData.kext* and *BrcmPatchRAM2.kext*. I also added a `brcmfx-country=XX` boot argument e.g.
@@ -226,11 +226,11 @@ Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/a
 
 ## Febuary 2020 update
 
-![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/banner3.jpg "Banner")
+![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/banner3.jpg "Banner")
 
 I have moved to a Dan A4-SFX V4.1 case with a Noctua NH-L9i CPU cooler, 2 x Samsung 970 EVO Plus 500 GB NVMe M.2, Powercolor AMD Radeon RX 5700 XT Red Dragon, a Corsair SF600 Platinum PSU and a Noctua NF-A9x14 case fan.
 
 Still using Clover for now, same drivers and kexts but without WiFi and Bluetooth.
 
 So far I'm using an iMacPro1,1 SMBIOS and have dual monitors with 1 DisplayPort and 1 HDMI port. The config.plist looks something like:
-[iMacPro1,1-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/iMacPro1,1-config.plist)
+[iMacPro1,1-config.plist](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/resources/iMacPro1,1-config.plist)
