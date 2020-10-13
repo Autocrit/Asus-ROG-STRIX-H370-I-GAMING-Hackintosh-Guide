@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/banner4.jpg "Banner")
+![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/banner4.jpg "Banner")
 
 # Asus ROG STRIX H370-I GAMING Hackintosh Guide
 
@@ -35,8 +35,8 @@ I'm using an *iMac19,1* SMBIOS
 ## USB 15 port limit
 - although the cleaner method is probably to generate a USBMap.kext, I'm still using USBInjectAll.kext, XHCI-unsupported.kext and SSDT-UIAC.aml generated previously
 - this graphic might still be useful:
-![Asus H370-I GAMING USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/asus-h370-i-gaming-usb-ports-2.png "Asus H370-I GAMING USB ports")
-- example [SSDT-UIAC.dsl](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/SSDT-UIAC.dsl) with unused/excluded ports commented out
+![Asus H370-I GAMING USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/asus-h370-i-gaming-usb-ports-2.png "Asus H370-I GAMING USB ports")
+- example [SSDT-UIAC.dsl](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/resources/SSDT-UIAC.dsl) with unused/excluded ports commented out
 
 ## Audio
 - my layout id is 7, so I have this in DeviceProperies:
@@ -58,4 +58,4 @@ I'm using an *iMac19,1* SMBIOS
 ## Feedback
 Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/.
 
-![Big Sur](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/big_sur_banner.png "Big Sur")
+![Big Sur](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/big_sur_banner.png "Big Sur")
