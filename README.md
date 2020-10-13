@@ -56,4 +56,6 @@ I'm using an *iMac19,1* SMBIOS
 - this isn't not working at the moment and I'm not sure why
 
 ## Feedback
-Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/. 
+Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/.
+
+![Big Sur](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/big_sur_banner.png "Big Sur")
