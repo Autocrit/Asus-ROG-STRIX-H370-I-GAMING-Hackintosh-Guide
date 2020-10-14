@@ -58,4 +58,4 @@ I'm using an *iMac19,1* SMBIOS
 ### Windows 10
 - wake from sleep in Windows 10 is broken since the move to OpenCore
 
-![Big Sur](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/big_sur_banner.png "Big Sur")
+![Big Sur](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/big_sur_banner.jpg "Big Sur")
