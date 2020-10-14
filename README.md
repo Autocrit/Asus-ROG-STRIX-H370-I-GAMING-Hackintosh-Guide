@@ -48,14 +48,14 @@ I'm using an *iMac19,1* SMBIOS
 </dict>
 ```
 
-## Troubleshooting
+## Issues
 ### RTC/CMOS error
 - on restart I was getting the BIOS error "The system has posted in safe mode". This is fxed with *DisableRtcChecksum* in Kernal->Quirks set to *true*
 
 ### OpenCore GUI
 - this isn't not working at the moment and I'm not sure why
 
-## Feedback
-Questions, comments, suggestions: https://www.reddit.com/r/hackintosh/comments/avdfz7/asus_rog_strix_h370i_gaming_hackintosh_guide/.
+### Windows 10
+- wake from sleep in Windows 10 is broken since the move to OpenCore
 
 ![Big Sur](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/big_sur_banner.png "Big Sur")
