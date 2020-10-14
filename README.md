@@ -53,7 +53,7 @@ I'm using an *iMac19,1* SMBIOS
 - on restart I was getting the BIOS error "The system has posted in safe mode". This is fxed with *DisableRtcChecksum* in Kernal->Quirks set to *true*
 
 ### OpenCore GUI
-- this isn't not working at the moment and I'm not sure why
+- this isn't working at the moment and I'm not sure why
 
 ### Windows 10
 - wake from sleep in Windows 10 is broken since the move to OpenCore
