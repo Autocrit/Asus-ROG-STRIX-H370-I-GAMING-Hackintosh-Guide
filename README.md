@@ -33,7 +33,8 @@ Then added:
 I'm using an *iMac19,1* SMBIOS
 
 ## USB 15 port limit
-- although the cleaner method is probably to generate a USBMap.kext, I'm still using USBInjectAll.kext, XHCI-unsupported.kext and SSDT-UIAC.aml generated previously
+![USBMap](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/usb_map.png "USBMap")
+- although the cleaner method is probably to generate a USBMap.kext with USBMap, I'm still using USBInjectAll.kext, XHCI-unsupported.kext and SSDT-UIAC.aml generated previously
 - this graphic might still be useful:
 ![Asus H370-I GAMING USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/asus-h370-i-gaming-usb-ports-2.png "Asus H370-I GAMING USB ports")
 - example [SSDT-UIAC.dsl](https://github.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/blob/master/resources/SSDT-UIAC.dsl) with unused/excluded ports commented out
