@@ -3,7 +3,7 @@
 # Asus ROG STRIX H370-I GAMING Hackintosh Guide
 
 ## October 2020 switch to OpenCore
-The old version of this guide, using Clover and *CorpNewt's [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* can be found [*here*](README_OLD.md).
+The old version of this guide, using Clover and *CorpNewt's [Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/)* can be found [*here*](README_OLD.md). I had started to get regular graphics (I think) - related lock-ups (i.e. black screen/force shutdown) with the Clover-based install, and updating Clover and kexts had become complicated. So far there have been no lock-ups with OpenCore. 
 
 ## My system
 * CPU: Intel Core i7-8700K
@@ -16,7 +16,7 @@ The old version of this guide, using Clover and *CorpNewt's [Hackintosh Vanilla 
 * Power supply: Corsair SF 600W 80+ Platinum
 
 ## OpenCore guide
-I followed the [*Dortania*](https://dortania.github.io/OpenCore-Install-Guide/) guide step-by-step and so far the results are good. As I'm new to OpenCore I'll only add a few comments.
+I followed the [*Dortania*](https://dortania.github.io/OpenCore-Install-Guide/) guide step-by-step; as I'm new to OpenCore I'll only add a few comments.
 
 ## ACPI
 I ran SSDTTime in Windows with the following options:
