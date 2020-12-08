@@ -36,7 +36,7 @@ if [ "${UPDATE_KEXTS}" == "true" ] ; then
 	chmod +x Run.command
 	./Run.command
 	
-	# Select 6, 30, 33, 36, 44, 47, 54
+	# Select 6, 30, 33, 36, 44, 47, 54, then B to build
 	
 	cd kexts
 	unzip \*.zip
