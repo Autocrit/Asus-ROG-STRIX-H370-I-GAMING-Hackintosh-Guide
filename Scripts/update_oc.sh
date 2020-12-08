@@ -1,3 +1,13 @@
+#
+# Update OpenCore and kexts
+#
+# Download latest Opencore from https://github.com/acidanthera/OpenCorePkg/releases/
+#
+# Mount EFI if updating directly or prepare a folder
+#
+# Xcode needed to build Lilu-and-Friends
+#
+
 UPDATE_OC="true"
 UPDATE_KEXTS="true"
 
