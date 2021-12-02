@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/banner4.jpg "Banner")
+![Banner](./images/banner4.jpg "Banner")
 
 # Asus ROG STRIX H370-I GAMING Hackintosh Guide
 
@@ -21,9 +21,12 @@ I followed the [*Dortania*](https://dortania.github.io/OpenCore-Install-Guide/) 
 ## PlatformInfo
 I'm using an *iMac19,1* SMBIOS
 
+## Kexts, drivers etc
+![Finder](./images/finder.png "Finer")
+
 ## USB 15 port limit
-![USBMap](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/usb_map.png "USBMap")
-![Asus H370-I GAMING USB ports](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/asus-h370-i-gaming-usb-ports-2.png "Asus H370-I GAMING USB ports")
+![USBMap](./images/usb_map.png "USBMap")
+![Asus H370-I GAMING USB ports](./images/asus-h370-i-gaming-usb-ports-2.png "Asus H370-I GAMING USB ports")
 - I generated a *USBMap.kext*
 
 ## Audio
@@ -67,4 +70,4 @@ I'm using an *iMac19,1* SMBIOS
 			</dict>
 ```
 
-![Big Sur](https://raw.githubusercontent.com/Autocrit/Asus-ROG-STRIX-H370-I-GAMING-Hackintosh-Guide/master/images/big_sur_banner.jpg "Big Sur")
+![Big Sur](./images/big_sur_banner.jpg "Big Sur")
