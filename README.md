@@ -69,5 +69,7 @@ I'm using an *iMac19,1* SMBIOS
 	<data>AgAAAA==</data>
 </dict>
 ```
+## Notes
+See rule 9 in r/hackintosh before asking for files
 
 ![Big Sur](./images/big_sur_banner.jpg "Big Sur")
